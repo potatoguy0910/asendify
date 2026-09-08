@@ -4,15 +4,49 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Asendify — Views-to-Revenue Agency</title>
-    <link rel="stylesheet" href="assets/css/style.css?v=2" />
+    <title>Asendify — YouTube Growth Agency</title>
+    <meta name="description" content="Asendify is a UAE-based, invite-only YouTube growth agency. Retention-engineered editing for creators of all niches. Only 5 clients — book your spot." />
+    <link rel="canonical" href="https://asendify.co/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Asendify — YouTube Growth Agency" />
+    <meta property="og:description" content="Asendify is a UAE-based, invite-only YouTube growth agency. Retention-engineered editing for creators of all niches. Only 5 clients — book your spot." />
+    <meta property="og:url" content="https://asendify.co/" />
+    <meta property="og:image" content="https://asendify.co/assets/images/logo.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Asendify — YouTube Growth Agency" />
+    <meta name="twitter:description" content="Asendify is a UAE-based, invite-only YouTube growth agency. Retention-engineered editing for creators of all niches. Only 5 clients — book your spot." />
+    <meta name="twitter:image" content="https://asendify.co/assets/images/logo.png" />
+    <link rel="stylesheet" href="assets/css/style.css?v=73" />
     <link rel="icon" type="image/png" href="./assets/images/logo1.jpeg">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600&display=swap"
-        rel="stylesheet"
-     />
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Manrope:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Asendify",
+        "url": "https://asendify.co/",
+        "logo": "https://asendify.co/assets/images/logo.png",
+        "description": "Asendify is a UAE-based, invite-only YouTube growth agency offering retention-engineered video editing, AI automations, and web design for creators of all niches.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "AE"
+        },
+        "founder": {
+            "@type": "Person",
+            "name": "Manthan Bhendkar"
+        },
+        "sameAs": [
+            "https://www.instagram.com/asendify.digital/",
+            "https://www.youtube.com/@busterff1600",
+            "https://www.linkedin.com/in/manthan-bhendkar-93b452395/",
+            "https://x.com/manthanbhendkar"
+        ]
+    }
+    </script>
 </head>
 <script src="https://cdn.tailwindcss.com"></script>
 <script type="text/javascript">
@@ -37,11 +71,10 @@ twq('config','rd7up');
     <header class="navbar" id="navbar">
         <div class="nav-inner">
             <a href="#home" class="logo">
-                <img class="logo" src="./assets/images/logo.png">
+                <img class="logo" src="./assets/images/logo.png" alt="Asendify logo">
             </a>
             <nav class="nav-links" id="navLinks">
                 <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
                 <div class="nav-item-dropdown">
                     <button class="nav-link nav-dropdown-toggle" type="button">
                         Services
@@ -79,226 +112,81 @@ twq('config','rd7up');
                     </div>
                 </div>
                 <a href="#work" class="nav-link">Work</a>
-                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <div class="nav-item-dropdown">
+                    <button class="nav-link nav-dropdown-toggle" type="button">
+                        Resources
+                        <svg class="nav-dropdown-arrow" viewBox="0 0 12 8" width="10" height="7" fill="none">
+                            <path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="nav-dropdown-menu">
+                        <a href="#testimonials" class="nav-dropdown-link">Testimonials</a>
+                        <a href="./case-studies" class="nav-dropdown-link">Case Studies</a>
+                        <a href="#roi-calculator" class="nav-dropdown-link">ROI Calculator</a>
+                    </div>
+                </div>
                 <a href="#pricing" class="nav-link">Pricing</a>
                 <a href="./policies" class="nav-link">Policies</a>
+                <a href="./founder" class="nav-link">Founder</a>
                 <a href="./contact" class="nav-link">Contact</a>
+                <a href="https://portal.asendify.co" class="nav-link nav-mobile-signin">Client Sign In</a>
+                <a href="./book" class="btn-cta nav-mobile-cta">Work with us</a>
             </nav>
-            <a href="./contact" class="btn-cta">Work with us</a>
+            <a href="https://portal.asendify.co" class="nav-signin" title="For existing Asendify clients">Client Sign In</a>
+            <a href="./book" class="btn-cta">Work with us</a>
             <button class="hamburger" id="hamburger" aria-label="Toggle menu">
                 <span></span><span></span><span></span>
             </button>
         </div>
     </header>
 
-        <!-- ========== WORK / PORTFOLIO ========== -->
-    <section class="work" id="work">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-tag reveal">Portfolio</div>
-                <h2 class="section-heading reveal delay-1">
-                    Selected <em>Work</em>
-                </h2>
-                <p class="section-sub reveal delay-2">A curated glimpse of the stories we've told and the brands we've
-                    elevated.</p>
-            </div>
-            <div class="work-grid">
-                <div class="work-card reveal delay-3">
-                    <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/E7OHjY9Mrrc?si=oZqwa-8HsCO9CbYY" title="Video Testimonial"
-                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen=""></iframe>
+    <!-- ── HOME ANCHOR ───────────────────────────────────── -->
+    <div id="home" style="position: relative; top: -1px;"></div>
+
+    <!-- ========== VORTEX REEL (UNDERWATER, HERO MERGED IN) ========== -->
+    <section class="uw-vortex-runway" id="work">
+        <div class="uw-vortex-sticky">
+            <canvas class="uw-bubbles" id="uwBubblesVortex"></canvas>
+            <div class="uw-caustics"></div>
+            <div class="uw-vortex-content">
+                <div class="uw-vortex-heading">
+                    <div class="uw-badge-row">
+                        <div class="uw-invite-badge">
+                            <span class="uw-invite-dot"></span>
+                            Invite Only — 5 Clients Max
+                        </div>
+                        <div class="uw-invite-badge">
+                            🇦🇪 UAE-Based — Serving Worldwide
+                        </div>
+                        <div class="uw-invite-badge">
+                            📈 YouTube Growth Agency
+                        </div>
                     </div>
+                    <div class="uw-eyebrow">Views → <em>Revenue</em></div>
+                    <h1 class="uw-handcrafted-title">Handcrafted, <em>Not Mass-Produced</em></h1>
+                    <p class="uw-handcrafted-body">
+                        Asendify is a YouTube growth agency for creators serious about turning views into
+                        revenue. We only take on 5 clients at a time. That's not a limitation — it's the whole
+                        point. Every video gets a dedicated editor who knows your channel inside out, cutting
+                        frame by frame until every second earns its place. Nothing here is templated, automated,
+                        or outsourced. This is what a luxury production house looks like: fewer clients, more
+                        obsession, and results most agencies simply can't match.
+                    </p>
+                    <a href="mailto:manthanbhendkaar@gmail.com?subject=Invite%20Request"
+                        class="uw-request-invite">Don't have an invite? Request one →</a>
                 </div>
-                <div class="work-card reveal delay-3">
-                    <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/16WVMNsXH-A" title="Video Testimonial"
-                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen=""></iframe>
-                    </div>
-                </div>
-                <div class="work-card reveal delay-3">
-                    <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/nh9gsXdC9Ak" title="Video Testimonial"
-                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen=""></iframe>
-                    </div>
-                </div>
-                <div class="work-card reveal delay-3">
-                    <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/oycQ9o4-tnQ?si=8r5seAPvKV3tA-MD"
-                            title="Video Testimonial"
-                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen=""></iframe>
-                    </div>
-                </div>
-                <div class="work-card reveal delay-3">
-                    <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/ab8uXdIu57Y"
-                            title="Video Testimonial"
-                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen=""></iframe>
-                    </div>
-                </div>
-                <div class="work-card reveal delay-3">
-                    <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/P4ID_IzGWSQ"
-                            title="Video Testimonial"
-                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen=""></iframe>
-                    </div>
-                </div>
-                <div class="work-card reveal delay-3">
-                    <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/6JhsbbmLUOU?si=IRqqBhVeB6lS4ksV"
-                            title="Video Testimonial"
-                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen=""></iframe>
-                    </div>
-                </div>
-                <div class="work-card reveal delay-3">
-                    <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/dJoLTl9oMLo?si=9XUIgHHmDD9RLMlw"
-                            title="Video Testimonial"
-                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen=""></iframe>
-                    </div>
-                </div>
-                <div class="work-card reveal delay-3">
-                    <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/8gB9-vIcMGk?si=bdPcFDY8AGbzuu00"
-                            title="Video Testimonial"
-                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen=""></iframe>
+                <div class="uw-vortex-right">
+                    <span class="uw-vortex-stage-tag">Selected Work</span>
+                    <div class="uw-vortex-stage" id="uwVortexStage">
+                        <div class="uw-funnel-silhouette" id="uwFunnelSilhouette"></div>
                     </div>
                 </div>
             </div>
-            <div class="work-cta reveal delay-2">
-                <a href="./contact" class="btn-primary">Start Your Project →</a>
-            </div>
+            <div class="uw-depth-fade"></div>
         </div>
     </section>
 
-    <!-- ========== HERO ========== -->
-    <section class="hero" id="home">
-        <div class="hero-bg">
-            <div class="glow glow-1"></div>
-            <div class="glow glow-2"></div>
-            <div class="glow glow-3"></div>
-            <div class="glow glow-4"></div>
-            <div class="animated-particles"></div>
-            <div class="rotating-wheel">
-
-                <div class="circle-2"></div>
-
-
-                <div class="spoke"></div>
-                <div class="spoke"></div>
-                <div class="spoke"></div>
-                <div class="spoke"></div>
-                <div class="spoke"></div>
-                <div class="spoke"></div>
-                <div class="spoke"></div>
-                <div class="spoke"></div>
-                <div class="spoke"></div>
-                <div class="spoke"></div>
-                <div class="spoke"></div>
-            </div>
-            <div class="grid-overlay"></div>
-        </div>
-        <div class="hero-content">
-            <div class="hero-tag reveal">
-                <span class="dot"></span> 🇦🇪 UAE-Based Views-to-Revenue Agency
-            </div>
-            <h1 class="hero-heading reveal delay-1">
-                Crafting<br />
-                <em>Visual</em><br />
-                Experiences
-            </h1>
-            <p class="hero-sub reveal delay-2">
-                We use Neuroscience while editing every video which makes it have very good retention.<br>
-                Guranteed 100% satisfaction.
-            </p>
-            
-            <div class="hero-actions reveal delay-3">
-                <a href="#work" class="btn-primary">View Work</a>
-                <a href="./contact" class="btn-ghost">Contact Us <span class="arrow">→</span></a>
-            </div>
-            <div class="hero-scroll reveal delay-4">
-                <div class="scroll-line"></div>
-                <span>Scroll</span>
-            </div>
-        </div>
-        <div class="hero-reel reveal delay-3">
-            <iframe class="reel-frame" src="https://www.youtube.com/embed/Wvc5cpcp6RE?rel=0"
-                title="Asendify Reel"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen>
-            </iframe>
-        </div>
-    </section>
-
-    <!-- ========== ABOUT ========== -->
-    <section class="about" id="about">
-        <div class="container">
-            <div class="about-grid">
-                <div class="about-left">
-                    <div class="section-tag reveal">About Asendify 🇦🇪</div>
-                    <h2 class="section-heading reveal delay-1">
-                        We Don't Just Edit.<br />
-                        <em>We Sculpt Stories.</em>
-                    </h2>
-                    <p class="about-body reveal delay-2">
-                        Asendify is a <strong>Views-to-Revenue agency</strong> based in the <strong>United Arab Emirates 🇦🇪</strong>, specializing in premium video editing, motion design, and
-                        visual storytelling. Born from a passion for cinematic craft, we partner with brands, creators,
-                        and businesses to turn attention into revenue.
-                    </p>
-                    <p class="about-body reveal delay-2">
-                        We use Neuroscience while editing every video which makes it have very good retention.
-                    </p>
-                    <p class="about-body reveal delay-2">
-                        <strong>We help investors, venture capital firms, private equity firms, investment bankers,
-                        and finance podcasts turn their YouTube channels into revenue-generating assets.</strong>
-                    </p>
-                    <p class="about-body reveal delay-2">
-                        Every frame is intentional. Every cut is purposeful. We blend technical mastery with artistic
-                        vision to create content that doesn't just capture attention — it commands it.
-                    </p>
-                    <a href="#services" class="btn-outline reveal delay-3">Explore Services →</a>
-                </div>
-                <div class="about-right">
-                    <div class="stats-grid reveal delay-2">
-                        <div class="stat-card">
-                            <span class="stat-num" data-target="320">0</span><span class="stat-plus">+</span>
-                            <p class="stat-label">Projects Completed</p>
-                        </div>
-                        <div class="stat-card">
-                            <span class="stat-num" data-target="180">0</span><span class="stat-plus">+</span>
-                            <p class="stat-label">Happy Clients</p>
-                        </div>
-                        <div class="stat-card">
-                            <span class="stat-num" data-target="6">0</span><span class="stat-plus">+</span>
-                            <p class="stat-label">Years Experience</p>
-                        </div>
-                        <div class="stat-card">
-                            <span class="stat-num" data-target="98">0</span><span class="stat-plus">%</span>
-                            <p class="stat-label">Client Satisfaction</p>
-                        </div>
-                    </div>
-                    <div class="about-visual reveal delay-3">
-                        <div class="av-inner">
-                            <div class="film-strip">
-                                <span></span><span></span><span></span><span></span><span></span>
-                            </div>
-                            <div class="av-text">
-                                <p class="av-quote">"Visual excellence<br />is our language."</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- ── NEUROSCIENCE SECTION ───────────────────────────────────── -->
     <section id="neuroscience" class="neuroscience-section">
@@ -351,201 +239,11 @@ twq('config','rd7up');
 
                 <div class="hype-pricing-node" id="pricing-wrapper">
                     <span class="price-currency">£</span>
-                    <span class="price-val" id="dynamic-price">5,500</span>
+                    <span class="price-val" id="dynamic-price">10,000</span>
                 </div>
             </div>
         </div>
     </section>
-
-
-
-    <!-- ========== SERVICES ========== -->
-    <section class="services" id="services">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-tag reveal">What We Do</div>
-                <h2 class="section-heading reveal delay-1">
-                    Premium <em>Services</em><br />Built for Impact
-                </h2>
-                <p class="section-sub reveal delay-2">From raw clips to cinematic masterpieces — we handle every frame
-                    with intention.</p>
-            </div>
-            <div class="services-grid">
-                <a href="./short-form/">
-                    <div class="service-card reveal delay-2">
-                        <div class="sc-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <path d="M12 18.5a6.5 6.5 0 100-13 6.5 6.5 0 000 13z" />
-                                <path
-                                    d="M12 2v2M12 20v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M2 12h2M20 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
-                            </svg>
-                        </div>
-                        <h3 class="sc-title">Short Form Content</h3>
-                        <p class="sc-desc">Reels, Shorts, TikToks — optimized for engagement. Hook-first editing that
-                            stops
-                            the scroll and drives action.</p>
-                        <span class="sc-arrow">→</span>
-                    </div>
-                </a>
-                <a href="./animations/">
-                    <div class="service-card reveal delay-3">
-                        <div class="sc-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <path d="M7 16l-4-4m0 0l4-4m-4 4h18M17 8l4 4m0 0l-4 4" />
-                            </svg>
-                        </div>
-                        <h3 class="sc-title">2D Animations</h3>
-                        <p class="sc-desc">Dynamic animations, kinetic typography, and fluid motion design that brings
-                            your
-                            brand identity to life with elegance.</p>
-                        <span class="sc-arrow">→</span>
-                    </div>
-                </a>
-                
-                <a href="./youtube">
-                    <div class="service-card reveal delay-1">
-                        <div class="sc-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <path
-                                    d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                                <path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                        </div>
-                        <h3 class="sc-title">YouTube Editing</h3>
-                        <p class="sc-desc">Retention-optimized long-form edits with custom intros, B-roll integration,
-                            and
-                            chapter-driven storytelling for maximum views.</p>
-                        <span class="sc-arrow">→</span>
-                    </div>
-                </a>
-                <a href="./3d/">
-                    <div class="service-card reveal delay-3">
-                        <div class="sc-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <path d="M7 16l-4-4m0 0l4-4m-4 4h18M17 8l4 4m0 0l-4 4" />
-                            </svg>
-                        </div>
-                        <h3 class="sc-title">3D Animations</h3>
-                        <p class="sc-desc">Immersive 3D animation experiences that bring your ideas to life with stunning realism.</p>
-                        <span class="sc-arrow">→</span>
-                    </div>
-                </a>
-                <a href="./podcast/">
-                    <div class="service-card reveal delay-1">
-                        <div class="sc-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <path
-                                    d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                                <path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                        </div>
-                        <h3 class="sc-title">Podcast Editing</h3>
-                        <p class="sc-desc">Retention-optimized long-form podcast edits with custom intros for maximum views.</p>
-                        <span class="sc-arrow">→</span>
-                    </div>
-                </a>
-                <a href="./gaming/">
-                    <div class="service-card reveal delay-1">
-                        <div class="sc-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <path
-                                    d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                                <path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                        </div>
-                        <h3 class="sc-title">Gaming Content</h3>
-                        <p class="sc-desc">Engaging gaming content creation and editing for maximum player engagement and retention.</p>
-                        <span class="sc-arrow">→</span>
-                    </div>
-                </a>
-                <a href="./vlogs/">
-                    <div class="service-card reveal delay-1">
-                        <div class="sc-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <path
-                                    d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                                <path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                        </div>
-                        <h3 class="sc-title">Vlogs</h3>
-                        <p class="sc-desc">Engaging vlog content creation and editing for maximum viewer engagement and retention.</p>
-                        <span class="sc-arrow">→</span>
-                    </div>
-                </a>
-                <a href="./clipping/">
-                    <div class="service-card reveal delay-1">
-                        <div class="sc-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <path
-                                    d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                                <path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                        </div>
-                        <h3 class="sc-title">Clipping <span class="trending-badge">🔥 Trending</span></h3>
-                        <p class="sc-desc">Premium clipping content for maximum impact and engagement.</p>
-                        <span class="sc-arrow">→</span>
-                    </div>
-                </a>
-                <a href="./ai/">
-                    <div class="service-card reveal delay-1">
-                        <div class="sc-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <path
-                                    d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                                <path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                        </div>
-                        <h3 class="sc-title">AI Content</h3>
-                        <p class="sc-desc">Innovative AI-generated content for maximum impact and engagement.</p>
-                        <span class="sc-arrow">→</span>
-                    </div>
-                </a>
-                <a href="./talkinghead/">
-                    <div class="service-card reveal delay-1">
-                        <div class="sc-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <path
-                                    d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                                <path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                        </div>
-                        <h3 class="sc-title">Talking Head</h3>
-                        <p class="sc-desc">Premium talking head video production for maximum viewer engagement and retention.</p>
-                        <span class="sc-arrow">→</span>
-                    </div>
-                </a>
-                <a href="./explainer/">
-                    <div class="service-card reveal delay-1">
-                        <div class="sc-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <path
-                                    d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                                <path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                        </div>
-                        <h3 class="sc-title">Comic explainer</h3>
-                        <p class="sc-desc">Innovative comic explainer content for maximum impact and engagement.</p>
-                        <span class="sc-arrow">→</span>
-                    </div>
-                </a>
-                <a href="./trading/">
-                    <div class="service-card reveal delay-1">
-                        <div class="sc-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <path
-                                    d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                                <path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                        </div>
-                        <h3 class="sc-title">Trading</h3>
-                        <p class="sc-desc">Innovative trading content for maximum impact and engagement.</p>
-                        <span class="sc-arrow">→</span>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
-
 
     <!-- ========== TESTIMONIALS ========== -->
     <section class="testimonials" id="testimonials">
@@ -555,14 +253,56 @@ twq('config','rd7up');
                     <em>Case Studies</em>
                 </h2>
                 <div class="case-grid">
-                    <a href="https://www.youtube.com/@IMPERIALYT" target="_blank" rel="noopener">
-                        <img class="case reveal delay-2" src="./assets/images/c1.png">
+                    <a class="case case-live reveal delay-2"
+                        href="https://www.youtube.com/@IMPERIALYT" target="_blank" rel="noopener">
+                        <div class="case-growth-start">
+                            <img src="./assets/images/imperial.jpg" alt="Imperial">
+                            <span>200K</span>
+                        </div>
+                        <svg class="case-arrow" viewBox="0 0 160 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 78 C 55 92, 70 30, 145 15" stroke="#7c3aed" stroke-width="3"
+                                fill="none" stroke-linecap="round" />
+                            <path d="M128 8 L147 14 L136 30" stroke="#7c3aed" stroke-width="3" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <div class="case-growth-end">
+                            <img src="./assets/images/imperial.jpg" alt="Imperial">
+                            <span>500K</span>
+                        </div>
                     </a>
-                    <a href="https://www.youtube.com/@OlderBrother_" target="_blank" rel="noopener">
-                        <img class="case reveal delay-2" src="./assets/images/c2.png">
+                    <a class="case case-live reveal delay-2"
+                        href="https://www.youtube.com/@OlderBrother_" target="_blank" rel="noopener">
+                        <div class="case-growth-start">
+                            <img src="./assets/images/olderbrother.jpg" alt="Older Brother">
+                            <span>50K</span>
+                        </div>
+                        <svg class="case-arrow" viewBox="0 0 160 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 78 C 55 92, 70 30, 145 15" stroke="#7c3aed" stroke-width="3"
+                                fill="none" stroke-linecap="round" />
+                            <path d="M128 8 L147 14 L136 30" stroke="#7c3aed" stroke-width="3" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <div class="case-growth-end">
+                            <img src="./assets/images/olderbrother.jpg" alt="Older Brother">
+                            <span>118K</span>
+                        </div>
                     </a>
-                    <a href="https://www.youtube.com/@megalomedia" target="_blank" rel="noopener">
-                        <img class="case reveal delay-2" src="./assets/images/c3.png">
+                    <a class="case case-live reveal delay-2"
+                        href="https://www.youtube.com/@megalomedia" target="_blank" rel="noopener">
+                        <div class="case-growth-start">
+                            <img src="./assets/images/megalo.jpg" alt="MegaloMedia">
+                            <span>50K</span>
+                        </div>
+                        <svg class="case-arrow" viewBox="0 0 160 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 78 C 55 92, 70 30, 145 15" stroke="#7c3aed" stroke-width="3"
+                                fill="none" stroke-linecap="round" />
+                            <path d="M128 8 L147 14 L136 30" stroke="#7c3aed" stroke-width="3" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <div class="case-growth-end">
+                            <img src="./assets/images/megalo.jpg" alt="MegaloMedia">
+                            <span>243K</span>
+                        </div>
                     </a>
                     <a class="case case-live reveal delay-2"
                         href="https://www.youtube.com/channel/UCNIuvl7V8zACPpTmmNIqP2A" target="_blank"
@@ -572,9 +312,9 @@ twq('config','rd7up');
                             <span>10K</span>
                         </div>
                         <svg class="case-arrow" viewBox="0 0 160 90" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M15 78 C 55 92, 70 30, 145 15" stroke="#d4af37" stroke-width="3"
+                            <path d="M15 78 C 55 92, 70 30, 145 15" stroke="#7c3aed" stroke-width="3"
                                 fill="none" stroke-linecap="round" />
-                            <path d="M128 8 L147 14 L136 30" stroke="#d4af37" stroke-width="3" fill="none"
+                            <path d="M128 8 L147 14 L136 30" stroke="#7c3aed" stroke-width="3" fill="none"
                                 stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                         <div class="case-growth-end">
@@ -582,7 +322,56 @@ twq('config','rd7up');
                             <span>9M</span>
                         </div>
                     </a>
+                    <a class="case case-live reveal delay-2"
+                        href="https://www.youtube.com/@jacksepticeye" target="_blank" rel="noopener">
+                        <div class="case-growth-start">
+                            <img src="./assets/images/jacksepticeye.jpg" alt="Jacksepticeye">
+                            <span>~0</span>
+                        </div>
+                        <svg class="case-arrow" viewBox="0 0 160 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 78 C 55 92, 70 30, 145 15" stroke="#7c3aed" stroke-width="3" fill="none" stroke-linecap="round" />
+                            <path d="M128 8 L147 14 L136 30" stroke="#7c3aed" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <div class="case-growth-end">
+                            <img src="./assets/images/jacksepticeye.jpg" alt="Jacksepticeye">
+                            <span>31M</span>
+                        </div>
+                    </a>
+                    <a class="case case-live reveal delay-2"
+                        href="https://www.youtube.com/@AlanChikinChow" target="_blank" rel="noopener">
+                        <div class="case-growth-start">
+                            <img src="./assets/images/alan-universe.jpg" alt="Alan's Universe">
+                            <span>~5K</span>
+                        </div>
+                        <svg class="case-arrow" viewBox="0 0 160 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 78 C 55 92, 70 30, 145 15" stroke="#7c3aed" stroke-width="3" fill="none" stroke-linecap="round" />
+                            <path d="M128 8 L147 14 L136 30" stroke="#7c3aed" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <div class="case-growth-end">
+                            <img src="./assets/images/alan-universe.jpg" alt="Alan's Universe">
+                            <span>100M</span>
+                        </div>
+                    </a>
+                    <a class="case case-live reveal delay-2"
+                        href="https://www.youtube.com/@PewDiePie" target="_blank" rel="noopener">
+                        <div class="case-growth-start">
+                            <img src="./assets/images/pewdiepie.jpg" alt="PewDiePie">
+                            <span>~2K</span>
+                        </div>
+                        <svg class="case-arrow" viewBox="0 0 160 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 78 C 55 92, 70 30, 145 15" stroke="#7c3aed" stroke-width="3" fill="none" stroke-linecap="round" />
+                            <path d="M128 8 L147 14 L136 30" stroke="#7c3aed" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <div class="case-growth-end">
+                            <img src="./assets/images/pewdiepie.jpg" alt="PewDiePie">
+                            <span>110M</span>
+                        </div>
+                    </a>
                 </div>
+            </div>
+
+            <div class="work-cta reveal delay-2" style="margin-top: 32px;">
+                <a href="./case-studies" class="btn-outline">See Full Case Studies →</a>
             </div>
 
         </div>
@@ -636,6 +425,147 @@ twq('config','rd7up');
                         </div>
                         <h3 class="channel-name">Whop Originals</h3>
                     </a>
+                    <a href="https://www.youtube.com/@jacksepticeye" class="channel-card">
+                        <div class="channel-icon">
+                            <img src="./assets/images/jacksepticeye.jpg" alt="Jacksepticeye">
+                        </div>
+                        <h3 class="channel-name">Jacksepticeye</h3>
+                    </a>
+                    <a href="https://www.youtube.com/@AlanChikinChow" class="channel-card">
+                        <div class="channel-icon">
+                            <img src="./assets/images/alan-universe.jpg" alt="Alan's Universe">
+                        </div>
+                        <h3 class="channel-name">Alan's Universe</h3>
+                    </a>
+                    <a href="https://www.youtube.com/@PewDiePie" class="channel-card">
+                        <div class="channel-icon">
+                            <img src="./assets/images/pewdiepie.jpg" alt="PewDiePie">
+                        </div>
+                        <h3 class="channel-name">PewDiePie</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ROI CALCULATOR ========== -->
+    <section class="testimonials" id="roi-calculator">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag reveal">ROI Calculator</div>
+                <h2 class="section-heading reveal delay-1">See What <em>Retention Engineering</em> Is Worth</h2>
+                <p class="section-sub reveal delay-2">
+                    Adjust the sliders to match your channel — see what retention-engineered editing could be
+                    worth in additional revenue.
+                </p>
+            </div>
+
+            <div class="roi-grid">
+                <div class="roi-inputs reveal delay-2">
+                    <h3>Your Channel</h3>
+                    <p class="roi-inputs-sub">Adjust the sliders to match your current numbers.</p>
+
+                    <div class="roi-field">
+                        <div class="roi-field-label">
+                            <span>Monthly Views</span>
+                            <span class="roi-field-value" id="roiViewsDisplay">750,000</span>
+                        </div>
+                        <input type="range" id="roiViews" min="650000" max="2000000" step="10000" value="750000"
+                            class="roi-slider">
+                    </div>
+
+                    <div class="roi-field">
+                        <div class="roi-field-label">
+                            <span>Average CPM</span>
+                            <span class="roi-field-value" id="roiCpmDisplay">£16</span>
+                        </div>
+                        <input type="range" id="roiCpm" min="14" max="30" step="1" value="16" class="roi-slider">
+                    </div>
+
+                    <div class="roi-field">
+                        <div class="roi-field-label">
+                            <span>Expected View Uplift</span>
+                            <span class="roi-field-value" id="roiUpliftDisplay">120%</span>
+                        </div>
+                        <input type="range" id="roiUplift" min="115" max="90000" step="5" value="120" class="roi-slider">
+                        <p class="roi-timeframe-note" id="roiTimeframeNote">Set manually, or pick a real client result
+                            below.</p>
+                    </div>
+
+                    <div class="roi-presets">
+                        <span class="roi-presets-label">Based on real client results:</span>
+                        <div class="roi-preset-buttons">
+                            <button type="button" class="roi-preset-btn" data-uplift="136" data-months="5">
+                                Older Brother<br><span>2.36x in 5mo</span>
+                            </button>
+                            <button type="button" class="roi-preset-btn" data-uplift="150" data-months="8">
+                                Imperial<br><span>2.5x in 8mo</span>
+                            </button>
+                            <button type="button" class="roi-preset-btn" data-uplift="386" data-months="7">
+                                MegaloMedia<br><span>4.86x in 7mo</span>
+                            </button>
+                            <button type="button" class="roi-preset-btn" data-uplift="90000" data-months="14">
+                                OverSimplified<br><span>Breakout Case — 900x in 14mo*</span>
+                            </button>
+                        </div>
+                        <p class="roi-preset-disclaimer">*OverSimplified's actual growth (900x) far exceeds this
+                            calculator's 90,000% cap — see the full story on our <a href="./case-studies">Case
+                                Studies</a> page.</p>
+                    </div>
+
+                    <div class="roi-static-callout">
+                        <span class="roi-static-tag">🔥 Real Result</span>
+                        <p><strong>OverSimplified</strong> grew from <strong>10K → 9M subscribers</strong> — a full
+                            <strong>900x</strong> — in 14 months.</p>
+                        <a href="./case-studies">See the full story →</a>
+                    </div>
+
+                    <p class="roi-disclaimer">Estimates based on documented client results. Actual results vary by
+                        niche, channel, and starting point.</p>
+                </div>
+
+                <div class="roi-outputs">
+                    <div class="roi-stat-grid">
+                        <div class="roi-stat-card reveal delay-2">
+                            <span class="roi-stat-label">Current Monthly Revenue</span>
+                            <span class="roi-stat-value" id="roiCurrentRevenue">£12,000</span>
+                        </div>
+                        <div class="roi-stat-card reveal delay-2">
+                            <span class="roi-stat-label">Projected Monthly Revenue</span>
+                            <span class="roi-stat-value" id="roiProjectedRevenue">£26,400</span>
+                        </div>
+                        <div class="roi-stat-card reveal delay-2">
+                            <span class="roi-stat-label">Additional Monthly Revenue</span>
+                            <span class="roi-stat-value roi-highlight" id="roiAdditionalMonthly">£14,400</span>
+                        </div>
+                        <div class="roi-stat-card reveal delay-2">
+                            <span class="roi-stat-label">Additional Annual Revenue</span>
+                            <span class="roi-stat-value roi-highlight" id="roiAdditionalAnnual">£172,800</span>
+                        </div>
+                    </div>
+
+                    <div class="roi-net-card reveal delay-2">
+                        <span class="roi-net-label">Net Monthly Gain After Our £10,000 Fee</span>
+                        <span class="roi-net-value" id="roiNetGain">£4,400</span>
+                        <p class="roi-net-sub">The additional revenue you gain, minus what you pay us — this is
+                            money in your pocket, on top of a channel that keeps compounding.</p>
+                    </div>
+
+                    <div class="roi-summary reveal delay-2">
+                        <span class="roi-summary-tag">Your Growth Opportunity</span>
+                        <div class="roi-summary-row">
+                            <span>Additional views per month</span>
+                            <strong id="roiAdditionalViews">900,000</strong>
+                        </div>
+                        <div class="roi-summary-row">
+                            <span>Additional revenue per year</span>
+                            <strong id="roiAdditionalAnnual2">£172,800</strong>
+                        </div>
+                        <div class="roi-cta-row">
+                            <a href="./book" class="btn-primary">Book a Call →</a>
+                            <a href="#pricing" class="btn-outline">See Pricing</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -655,11 +585,18 @@ twq('config','rd7up');
                 </p>
             </div>
 
+            <div class="elite-badge reveal delay-2">
+                <span class="elite-badge-dot"></span>
+                <strong>Invite Only.</strong> We only take on <strong>5 clients</strong> at Asendify — our
+                <strong>Elite Club</strong>, not an open roster. This option closes once the Elite Club is
+                filled.
+            </div>
+
             <div class="pricing-card reveal delay-2">
-                <div class="pricing-badge">Revenue Partnership</div>
+                <div class="pricing-badge">Elite Club</div>
                 <div class="pricing-amount">
                     <span class="pricing-currency">£</span>
-                    <span class="pricing-value">5,500</span>
+                    <span class="pricing-value">10,000</span>
                     <span class="pricing-period">/ month minimum</span>
                 </div>
                 <ul class="pricing-features">
@@ -672,13 +609,18 @@ twq('config','rd7up');
                 <a href="#contact" class="pricing-guarantee">
                     <span class="guarantee-icon">🛡</span>
                     <span>
-                        <strong>Full Money-Back Guarantee</strong>
-                        <p>If you don't see results in your first month, we refund you — no questions asked. See our
+                        <strong>Double Money-Back Guarantee</strong>
+                        <p>We'll sign a Double Money-Back Guarantee contract with you — if you don't see results in your first month, you're contractually guaranteed double what you paid back, no questions asked. See our
                             Policies page for details.</p>
                     </span>
                 </a>
 
-                <a href="#contact" class="btn-primary btn-full btn-lg">Book a Call →</a>
+                <a href="./book" class="btn-primary btn-full btn-lg">Book a Call →</a>
+
+                <p class="pricing-note">
+                    If your package price is more than the minimum you've paid as a deposit, the remainder is
+                    collected on the call.
+                </p>
 
                 <p class="pricing-note">
                     ⚠ We only sell through booked calls. If someone contacts you claiming to be Asendify outside of a
@@ -717,10 +659,12 @@ twq('config','rd7up');
                 </div>
                 <div>
                     <h3 class="section-heading reveal" style="font-size: 1.8rem; margin-bottom: 40px;">Book a <em>Call:</em></h3>
-                    <!-- Calendly inline widget begin -->
-                    <div class="calendly-inline-widget" data-url="https://calendly.com/manthanbhendkaaar/30min?hide_event_type_details=1&hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
-                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-                    <!-- Calendly inline widget end -->
+                    <div class="book-step-gate" style="padding: 0; text-align: left;">
+                        <p style="margin-bottom: 24px;">Calls are booked as part of securing your spot. Pay your
+                            £43,500 deposit first (3 months upfront + service fee), then you'll be able to book
+                            your call.</p>
+                        <a href="./book" class="btn-primary btn-lg">Secure Your Spot →</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -732,7 +676,7 @@ twq('config','rd7up');
             <div class="footer-grid">
                 <div class="footer-brand">
                     <a href="#home" class="logo footer-logo">
-                        <img class="logo" src="./assets/images/logo.png"> Asendify
+                        <img class="logo" src="./assets/images/logo.png" alt="Asendify logo"> Asendify
                     </a>
                     <p class="footer-tagline">🇦🇪 UAE-based Views-to-Revenue agency crafting cinematic visual experiences for brands and creators worldwide.
                     </p>
@@ -773,10 +717,9 @@ twq('config','rd7up');
                     <h4 class="footer-title">Navigation</h4>
                     <ul class="footer-links">
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#services">Services</a></li>
                         <li><a href="#work">Our Work</a></li>
                         <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="./founder">Founder</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -877,8 +820,8 @@ twq('config','rd7up');
                             // Luxury gold mixed with hot crimson energy filaments pathways
                             let alpha = (1 - dist / 52) * 0.16;
                             ctx.strokeStyle = p.electricalCharge > 0.85
-                                ? `rgba(255, 42, 42, ${alpha * 2.5})`
-                                : `rgba(212, 175, 55, ${alpha})`;
+                                ? `rgba(124, 58, 237, ${alpha * 2.5})`
+                                : `rgba(124, 58, 237, ${alpha})`;
                             ctx.lineWidth = p.electricalCharge > 0.85 ? 0.8 : 0.4;
                             ctx.stroke();
                         }
@@ -889,7 +832,7 @@ twq('config','rd7up');
                 nodes.forEach(p => {
                     ctx.beginPath();
                     ctx.arc(p.x, p.y, p.r + (Math.sin(p.pulse) * 0.4), 0, Math.PI * 2);
-                    ctx.fillStyle = p.electricalCharge > 0.85 ? '#ff2a2a' : '#d4af37';
+                    ctx.fillStyle = p.electricalCharge > 0.85 ? '#7c3aed' : '#7c3aed';
                     ctx.fill();
                 });
 
@@ -910,7 +853,7 @@ twq('config','rd7up');
             const lblHype = document.getElementById('label-hype');
             if (!trigger || !display) return;
 
-            const basePrice = 5500;
+            const basePrice = 10000;
             const hypedPrice = Math.round(basePrice * 1.40); // Mathematical precision execution verification
 
             // Smooth Odometer Numeric Counter Engine
@@ -949,6 +892,7 @@ twq('config','rd7up');
         /* ── HERO CANVAS MOLECULAR PARTICLE FIELD ENGINE ────────────── */
         (function () {
             const canvas = document.getElementById('hero-canvas');
+            if (!canvas) return;
             const ctx = canvas.getContext('2d');
             let W, H, pts;
 
@@ -973,8 +917,8 @@ twq('config','rd7up');
                 ctx.clearRect(0, 0, W, H);
 
                 const grad = ctx.createRadialGradient(W / 2, H / 2, 0, W / 2, H / 2, W * 0.6);
-                grad.addColorStop(0, 'rgba(255,255,255,0.03)');
-                grad.addColorStop(1, 'rgba(0,0,0,0)');
+                grad.addColorStop(0, 'rgba(124,58,237,0.03)');
+                grad.addColorStop(1, 'rgba(255,255,255,0)');
                 ctx.fillStyle = grad;
                 ctx.fillRect(0, 0, W, H);
 
@@ -986,7 +930,7 @@ twq('config','rd7up');
 
                     ctx.beginPath();
                     ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-                    ctx.fillStyle = `rgba(255,255,255,${p.a * 0.35})`;
+                    ctx.fillStyle = `rgba(30,16,48,${p.a * 0.35})`;
                     ctx.fill();
 
                     for (let j = i + 1; j < pts.length; j++) {
@@ -997,7 +941,7 @@ twq('config','rd7up');
                             ctx.beginPath();
                             ctx.moveTo(p.x, p.y);
                             ctx.lineTo(q.x, q.y);
-                            ctx.strokeStyle = `rgba(255,255,255,${(1 - d / 110) * 0.06})`;
+                            ctx.strokeStyle = `rgba(30,16,48,${(1 - d / 110) * 0.06})`;
                             ctx.lineWidth = 0.5;
                             ctx.stroke();
                         }
@@ -1012,10 +956,298 @@ twq('config','rd7up');
             draw();
         })();
 
- 
+        /* ── UNDERWATER BUBBLE FIELDS (hero + vortex) ────────────────── */
+        (function () {
+            const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+            function initBubbles(canvas) {
+                if (!canvas) return;
+                const ctx = canvas.getContext('2d');
+                let w, h, bubbles = [];
+
+                function resize() {
+                    const parent = canvas.parentElement;
+                    w = canvas.width = parent.offsetWidth;
+                    h = canvas.height = parent.offsetHeight;
+                }
+
+                function seed() {
+                    const count = reduceMotion ? 0 : Math.round((w * h) / 26000);
+                    bubbles = [];
+                    for (let i = 0; i < count; i++) {
+                        bubbles.push({
+                            x: Math.random() * w,
+                            y: Math.random() * h + h * 0.2,
+                            r: Math.random() * 3 + 1,
+                            speed: Math.random() * 0.6 + 0.15,
+                            wobble: Math.random() * Math.PI * 2,
+                            wobbleSpeed: Math.random() * 0.02 + 0.005,
+                            opacity: Math.random() * 0.35 + 0.08
+                        });
+                    }
+                }
+
+                window.addEventListener('resize', () => { resize(); seed(); });
+                resize();
+                seed();
+
+                function draw() {
+                    ctx.clearRect(0, 0, w, h);
+                    bubbles.forEach(b => {
+                        b.y -= b.speed;
+                        b.wobble += b.wobbleSpeed;
+                        const x = b.x + Math.sin(b.wobble) * 12;
+                        if (b.y < -20) {
+                            b.y = h + 20;
+                            b.x = Math.random() * w;
+                        }
+                        ctx.beginPath();
+                        ctx.arc(x, b.y, b.r, 0, Math.PI * 2);
+                        ctx.strokeStyle = `rgba(124, 58, 237, ${b.opacity})`;
+                        ctx.lineWidth = 1;
+                        ctx.stroke();
+                    });
+                    requestAnimationFrame(draw);
+                }
+                if (!reduceMotion) draw();
+            }
+
+            initBubbles(document.getElementById('uwBubblesHero'));
+            initBubbles(document.getElementById('uwBubblesVortex'));
+        })();
+
+        /* ── VORTEX SCROLL REEL (side-view, batch reveal) ────────────── */
+        (function () {
+            const runway = document.querySelector('.uw-vortex-runway');
+            const stage = document.getElementById('uwVortexStage');
+            const funnel = document.getElementById('uwFunnelSilhouette');
+            if (!runway || !stage || !funnel) return;
+            const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+            const RING_COUNT = 9;
+            for (let r = 0; r < RING_COUNT; r++) {
+                const t = r / (RING_COUNT - 1);
+                const width = 40 + t * 480;
+                const height = width * 0.32;
+                const bottomPos = 6 + t * 88;
+                const ring = document.createElement('div');
+                ring.className = 'uw-funnel-ring';
+                ring.style.width = width + 'px';
+                ring.style.height = height + 'px';
+                ring.style.bottom = bottomPos + '%';
+                funnel.appendChild(ring);
+            }
+            const spiralSVG = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+            spiralSVG.setAttribute('viewBox', '0 0 400 800');
+            spiralSVG.setAttribute('preserveAspectRatio', 'none');
+            spiralSVG.classList.add('uw-funnel-spiral');
+            spiralSVG.style.position = 'absolute';
+            spiralSVG.style.left = '50%';
+            spiralSVG.style.bottom = '0';
+            spiralSVG.style.width = '480px';
+            spiralSVG.style.height = '100%';
+            spiralSVG.style.transform = 'translateX(-50%)';
+            spiralSVG.innerHTML =
+                '<path d="M200,800 C120,600 280,500 200,380 C120,260 280,160 200,20" stroke="#7c3aed" stroke-width="1.5" fill="none" opacity="0.5"/>' +
+                '<path d="M200,800 C280,620 120,480 200,360 C280,240 120,140 200,10" stroke="#7c3aed" stroke-width="1" fill="none" opacity="0.3"/>';
+            funnel.appendChild(spiralSVG);
+
+            const videos = [
+                { id: 'uLhRfDpRm-w', label: '3D Animation Reel', url: '#' },
+                { id: '16WVMNsXH-A', label: 'Motion Graphics', url: '#' },
+                { id: '6JhsbbmLUOU', label: 'Client Feature', url: '#' },
+                { id: '8gB9-vIcMGk', label: 'YouTube Long-Form', url: '#' },
+                { id: 'E7OHjY9Mrrc', label: 'Retention Edit', url: '#' },
+                { id: 'P4ID_IzGWSQ', label: 'Case Study', url: '#' },
+                { id: 'ab8uXdIu57Y', label: 'Brand Story', url: '#' }
+            ];
+
+            const N = videos.length;
+            const cards = videos.map((v, i) => {
+                const el = document.createElement('a');
+                el.className = 'uw-vortex-card';
+                el.href = `https://www.youtube.com/watch?v=${v.id}`;
+                el.target = '_blank';
+                el.rel = 'noopener';
+                el.innerHTML = `<img loading="lazy" src="https://img.youtube.com/vi/${v.id}/hqdefault.jpg" alt="${v.label}"><div class="uw-cap">${v.label}</div>`;
+                stage.appendChild(el);
+                return {
+                    el,
+                    center: (i + 0.5) / N,
+                    swingPhase: i * 1.7,
+                    swingRadius: 50 + (i % 3) * 30
+                };
+            });
+
+            const WINDOW = 1.05 / N;
+
+            if (reduceMotion) {
+                stage.style.display = 'grid';
+                stage.style.gridTemplateColumns = 'repeat(3, 1fr)';
+                stage.style.gap = '20px';
+                stage.style.placeItems = 'center';
+                cards.forEach(c => {
+                    c.el.style.position = 'static';
+                    c.el.style.transform = 'none';
+                });
+                return;
+            }
+
+            const isMobile = window.matchMedia('(max-width: 768px)').matches || window.innerWidth < 768;
+            let smoothedProgress = 0;
+            let animating = false;
+
+            function computeTargetProgress() {
+                const rect = runway.getBoundingClientRect();
+                const total = rect.height - window.innerHeight;
+                let p = -rect.top / total;
+                return Math.max(0, Math.min(1, p));
+            }
+
+            function applyProgress(progress) {
+                cards.forEach((c) => {
+                    let localT = (progress - c.center) / WINDOW;
+                    localT = Math.max(-1.6, Math.min(1.6, localT));
+
+                    // Skip work entirely for cards that are fully out of range and already hidden
+                    if (Math.abs(localT) >= 1.6 && c.lastHidden) return;
+                    c.lastHidden = Math.abs(localT) >= 1.6;
+
+                    const y = localT * 300;
+                    const x = Math.sin(localT * 1.6 + c.swingPhase) * c.swingRadius;
+
+                    const focus = 1 - Math.min(1, Math.abs(localT));
+                    const scale = 0.55 + focus * 0.55;
+                    const opacity = Math.max(0, focus * 1.15);
+
+                    c.el.style.transform =
+                        `translate(-50%, -50%) translate(${x}px, ${y}px) scale(${scale})`;
+                    c.el.style.opacity = opacity;
+                    // Blur is one of the most GPU-expensive CSS properties — skip it on mobile
+                    // where it's the main cause of scroll jank; keep it on desktop for the depth effect.
+                    if (!isMobile) {
+                        const blur = (1 - focus) * 5;
+                        c.el.style.filter = blur > 0.1 ? `blur(${blur}px)` : 'none';
+                    }
+                    c.el.style.zIndex = 100 + Math.round(focus * 50);
+                });
+            }
+
+            // Smoothing factor: lower = slower, smoother catch-up to the actual
+            // scroll position. Mobile's scroll runway is shorter than desktop's,
+            // so without extra damping here the swirl reaches full speed after
+            // very little scrolling and feels rushed — a lower ease factor
+            // spreads that same motion out so it reads as a normal, unhurried pace.
+            const EASE = isMobile ? 0.045 : 0.16;
+
+            function loop() {
+                const target = computeTargetProgress();
+                smoothedProgress += (target - smoothedProgress) * EASE;
+                const diff = Math.abs(target - smoothedProgress);
+
+                if (diff < 0.0008) {
+                    smoothedProgress = target;
+                    applyProgress(smoothedProgress);
+                    animating = false;
+                    return;
+                }
+
+                applyProgress(smoothedProgress);
+                requestAnimationFrame(loop);
+            }
+
+            function requestUpdate() {
+                if (!animating) {
+                    animating = true;
+                    requestAnimationFrame(loop);
+                }
+            }
+
+            document.addEventListener('scroll', requestUpdate, { passive: true });
+
+            smoothedProgress = computeTargetProgress();
+            applyProgress(smoothedProgress);
+        })();
+
+        /* ── ROI CALCULATOR ──────────────────────────────────────────── */
+        (function () {
+            const viewsInput = document.getElementById('roiViews');
+            const cpmInput = document.getElementById('roiCpm');
+            const upliftInput = document.getElementById('roiUplift');
+            if (!viewsInput || !cpmInput || !upliftInput) return;
+
+            const viewsDisplay = document.getElementById('roiViewsDisplay');
+            const cpmDisplay = document.getElementById('roiCpmDisplay');
+            const upliftDisplay = document.getElementById('roiUpliftDisplay');
+
+            const currentRevenueEl = document.getElementById('roiCurrentRevenue');
+            const projectedRevenueEl = document.getElementById('roiProjectedRevenue');
+            const additionalMonthlyEl = document.getElementById('roiAdditionalMonthly');
+            const additionalAnnualEl = document.getElementById('roiAdditionalAnnual');
+            const additionalViewsEl = document.getElementById('roiAdditionalViews');
+            const additionalAnnual2El = document.getElementById('roiAdditionalAnnual2');
+            const netGainEl = document.getElementById('roiNetGain');
+            const PACKAGE_FEE = 10000;
+
+            function fmtMoney(n) {
+                const sign = n < 0 ? '-' : '';
+                return sign + '£' + Math.round(Math.abs(n)).toLocaleString('en-US');
+            }
+            function fmtNum(n) {
+                return Math.round(n).toLocaleString('en-US');
+            }
+
+            function recalc() {
+                const views = parseInt(viewsInput.value, 10);
+                const cpm = parseInt(cpmInput.value, 10);
+                const uplift = parseInt(upliftInput.value, 10);
+
+                viewsDisplay.textContent = fmtNum(views);
+                cpmDisplay.textContent = '£' + cpm;
+                upliftDisplay.textContent = uplift + '%';
+
+                const currentRevenue = (views / 1000) * cpm;
+                const projectedViews = views * (1 + uplift / 100);
+                const projectedRevenue = (projectedViews / 1000) * cpm;
+                const additionalMonthly = projectedRevenue - currentRevenue;
+                const additionalAnnual = additionalMonthly * 12;
+                const additionalViews = projectedViews - views;
+                const netGain = additionalMonthly - PACKAGE_FEE;
+
+                currentRevenueEl.textContent = fmtMoney(currentRevenue);
+                projectedRevenueEl.textContent = fmtMoney(projectedRevenue);
+                additionalMonthlyEl.textContent = fmtMoney(additionalMonthly);
+                additionalAnnualEl.textContent = fmtMoney(additionalAnnual);
+                additionalViewsEl.textContent = fmtNum(additionalViews);
+                additionalAnnual2El.textContent = fmtMoney(additionalAnnual);
+                if (netGainEl) {
+                    netGainEl.textContent = fmtMoney(netGain);
+                    netGainEl.style.color = netGain >= 0 ? 'var(--gold)' : '#ff8080';
+                }
+            }
+
+            const timeframeNote = document.getElementById('roiTimeframeNote');
+
+            [viewsInput, cpmInput, upliftInput].forEach(el => el.addEventListener('input', () => {
+                timeframeNote.textContent = 'Set manually, or pick a real client result below.';
+                recalc();
+            }));
+            recalc();
+
+            document.querySelectorAll('.roi-preset-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const uplift = btn.getAttribute('data-uplift');
+                    const months = btn.getAttribute('data-months');
+                    upliftInput.value = uplift;
+                    timeframeNote.textContent = `Based on a real ${months}-month result. This is the level reached after ${months} months, not overnight.`;
+                    recalc();
+                });
+            });
+        })();
+
     </script>
 
-    <script src="assets/js/script.js?v=2"></script>
+    <script src="assets/js/script.js?v=73"></script>
 </body>
 
 </html>
